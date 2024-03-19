@@ -1,0 +1,18 @@
+require:
+  - rubocop-minitest
+  - rubocop-rake
+
+AllCops:
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 160
+
+Minitest/MultipleAssertions:
+  Max: 10
+
+Metrics/MethodLength:
+  Max: 32
+
+Style/FormatStringToken:
+  Enabled: false
